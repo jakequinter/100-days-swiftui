@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B75DBF6A285E297300974E96 /* Challenege1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75DBF69285E297300974E96 /* Challenege1App.swift */; };
+		B75DBF6A285E297300974E96 /* Challenge1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75DBF69285E297300974E96 /* Challenge1App.swift */; };
 		B75DBF6C285E297300974E96 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75DBF6B285E297300974E96 /* ContentView.swift */; };
 		B75DBF6E285E297400974E96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B75DBF6D285E297400974E96 /* Assets.xcassets */; };
 		B75DBF71285E297400974E96 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B75DBF70285E297400974E96 /* Preview Assets.xcassets */; };
@@ -15,7 +15,7 @@
 
 /* Begin PBXFileReference section */
 		B75DBF66285E297300974E96 /* Challenege1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Challenege1.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B75DBF69285E297300974E96 /* Challenege1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenege1App.swift; sourceTree = "<group>"; };
+		B75DBF69285E297300974E96 /* Challenge1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge1App.swift; sourceTree = "<group>"; };
 		B75DBF6B285E297300974E96 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B75DBF6D285E297400974E96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B75DBF70285E297400974E96 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -35,7 +35,7 @@
 		B75DBF5D285E297300974E96 = {
 			isa = PBXGroup;
 			children = (
-				B75DBF68285E297300974E96 /* Challenege1 */,
+				B75DBF68285E297300974E96 /* Challenge1 */,
 				B75DBF67285E297300974E96 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,15 +48,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B75DBF68285E297300974E96 /* Challenege1 */ = {
+		B75DBF68285E297300974E96 /* Challenge1 */ = {
 			isa = PBXGroup;
 			children = (
-				B75DBF69285E297300974E96 /* Challenege1App.swift */,
+				B75DBF69285E297300974E96 /* Challenge1App.swift */,
 				B75DBF6B285E297300974E96 /* ContentView.swift */,
 				B75DBF6D285E297400974E96 /* Assets.xcassets */,
 				B75DBF6F285E297400974E96 /* Preview Content */,
 			);
-			path = Challenege1;
+			path = Challenge1;
 			sourceTree = "<group>";
 		};
 		B75DBF6F285E297400974E96 /* Preview Content */ = {
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B75DBF61285E297300974E96 /* Build configuration list for PBXProject "Challenege1" */;
+			buildConfigurationList = B75DBF61285E297300974E96 /* Build configuration list for PBXProject "Challenge1" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -138,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B75DBF6C285E297300974E96 /* ContentView.swift in Sources */,
-				B75DBF6A285E297300974E96 /* Challenege1App.swift in Sources */,
+				B75DBF6A285E297300974E96 /* Challenge1App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +266,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Challenege1/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Challenge1/Preview Content\"";
 				DEVELOPMENT_TEAM = 854V78MWGF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -295,7 +295,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Challenege1/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Challenge1/Preview Content\"";
 				DEVELOPMENT_TEAM = 854V78MWGF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -320,7 +320,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B75DBF61285E297300974E96 /* Build configuration list for PBXProject "Challenege1" */ = {
+		B75DBF61285E297300974E96 /* Build configuration list for PBXProject "Challenge1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B75DBF72285E297400974E96 /* Debug */,
