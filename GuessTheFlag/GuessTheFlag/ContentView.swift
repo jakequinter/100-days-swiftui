@@ -15,6 +15,9 @@ struct ContentView: View {
     @State private var correctAnswer = Int.random(in: 0...2)
     @State private var playerScore = 0
     @State private var questionIteration = 0
+    @State private var selectedFlag = ""
+    @State private var useBlur = false
+    
     
     var body: some View {
         ZStack {
@@ -44,10 +47,14 @@ struct ContentView: View {
                         Button {
                             flagTapped(number)
                         } label: {
+                            let userSelection = selectedFlag == countries[number]
                             Image(countries[number])
                                 .renderingMode(.original)
                                 .clipShape(Capsule())
                                 .shadow(radius: 5)
+                                .rotationEffect(Angle.degrees(userSelection ? 360 : 0))
+                                .animation(.easeOut, value: userSelection)
+                                .blur(radius: useBlur && !userSelection ? 25 : 0)
                         }
                     }
                 }
@@ -85,6 +92,9 @@ struct ContentView: View {
     func flagTapped(_ number: Int) {
         questionIteration += 1
         
+        selectedFlag = countries[number]
+        useBlur = true
+        
         if number == correctAnswer {
             playerScore += 1
         }
@@ -113,6 +123,8 @@ struct ContentView: View {
     func shuffleGame() {
         countries = countries.shuffled()
         correctAnswer = Int.random(in: 0...2)
+        selectedFlag = ""
+        useBlur = false
     }
 }
 
